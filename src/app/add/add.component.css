@@ -1,0 +1,112 @@
+:host {
+    --content-padding: 10px;
+  }
+.listing-heading {
+    font-size: 30pt;
+    font-weight: 300;
+    color: black;
+    font-weight: bolder;
+    margin-top: 40px;
+    margin-bottom: 25px;
+    text-align: center;
+  }
+  
+  .listing-heading span {
+    font-size: 16pt;
+  }
+  
+  .error {
+    color: red;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  ul {
+    display:block !important;
+    flex-direction: row;
+  }
+  
+  li {
+    align-items: center;
+    padding: 10px 0;
+  }
+  
+  .dialog_modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .dialog_overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  .dialog {
+    width: 270px;
+    height: 150px;
+    background-color: white;
+    border-color: lightgray;
+    border: solid 1px black;
+    border-radius: 16px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  
+  .dialog-buttons {
+    padding: 10px;
+    display: flex;
+    border-radius: 16px;
+    padding: 4px;
+    position: relative;
+    margin: auto;
+    justify-content: space-evenly;
+  }
+  
+  .listing-features > .section-heading {
+    color: var(--secondary-color);
+    font-size: 24pt;
+    margin-bottom: 15px;
+  }
+  
+  button:disabled {
+    opacity: 0.5;
+  }
+  
+  .listing-features {
+    margin-bottom: 20px;
+  }
+  
+  .listing-features li {
+    font-size: 14pt;
+  }
+  
+  label, input {
+    display: block;
+  }
+  
+  input {
+    font-size: 16pt;
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 400px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: solid .3px;
+  }
+  
+  @media (max-width: 1024px) {
+    .listing-photo {
+      width: 100%;
+      height: 400px;
+    }
+  }  
