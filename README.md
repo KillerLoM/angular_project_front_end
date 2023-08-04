@@ -3,11 +3,12 @@
 
 
 In order to run this project you need to install some files:
-  First: Go to https://github.com/KillerLoM/RestfulAPI and install file backend for project
+
+  Firstly: Go to https://github.com/KillerLoM/RestfulAPI and install file backend for project
   
-  Second: Go to https://dev.mysql.com/downloads/workbench/ and install my sql workbench in case backend sever not working
+  Secondly: Go to https://dev.mysql.com/downloads/workbench/ and install my sql workbench in case backend sever not working
   
-  Third: You need install ides which help build backend sever as IntelliJ IDEA Ultimate: https://www.jetbrains.com/idea/download/?section=windows
+  Thirdly: You need install ides which help build backend sever as IntelliJ IDEA Ultimate: https://www.jetbrains.com/idea/download/?section=windows
   
   Finally: You need install angular as instruction on this link: https://angular.io/guide/setup-local
   
